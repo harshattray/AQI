@@ -1,4 +1,3 @@
-<!-- update readme -->
 Air Quality Monitoring App
 ==========================
 
@@ -17,9 +16,9 @@ This component displays a dropdown list of all available cities. Users can selec
 
 ### Usage
 
-jsxCopy code
 
-`import Navbar from "./Navbar";
+```
+import Navbar from "./Navbar";
 
 function App() {
   const cities = ["Berlin", "Munich", "Hamburg"];
@@ -34,7 +33,8 @@ function App() {
       />
     </div>
   );
-}`
+}
+```
 
 ParameterGraph
 --------------
@@ -50,9 +50,9 @@ This component displays a line chart that shows the air quality data for a parti
 
 ### Usage
 
-jsxCopy code
 
-`import ParameterGraph from "./ParameterGraph";
+```
+import ParameterGraph from "./ParameterGraph";
 
 function App() {
   const data = [
@@ -80,7 +80,9 @@ function App() {
       <ParameterGraph data={data} parameter={parameter} />
     </div>
   );
-}`
+}
+
+```
 
 MainComponent
 -------------
@@ -89,9 +91,9 @@ This component is the main component of the application. It fetches air quality 
 
 ### Usage
 
-jsxCopy code
 
-`import MainComponent from "./MainComponent";
+```
+import MainComponent from "./MainComponent";
 
 function App() {
   return (
@@ -99,7 +101,8 @@ function App() {
       <MainComponent />
     </div>
   );
-}`
+}
+```
 
 Conclusion
 ----------
