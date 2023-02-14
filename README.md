@@ -3,6 +3,24 @@ Air Quality Monitoring App
 
 This is a React-based web application that shows air quality data for various cities in Germany. The application consists of three main components: `Navbar`, `ParameterGraph`, and `MainComponent`.
 
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm install`
+
+installs dependencies and dev dependencies<br>
+
+### `npm start`
+
+Runs the app in the development mode.<br>
+
+Open [http://localhost:3001](http://localhost:3000) to view it in the browser.
+
+### `npm run test`
+
+Launches the test runner.
+
 Navbar
 ------
 
